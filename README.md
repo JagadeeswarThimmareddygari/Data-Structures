@@ -13,3 +13,23 @@
 |Bucket Sort| O(n+k) |O(n+k) | O(n^2)|
 |Radix sort| O(nk)| O(nk) | O(nk)|
 
+### Bubble Sort
+---
+```python
+def bubble_sort(arr):
+    n=len(arr)
+    for i in range(n):
+        swapped=False
+        for j in range(n-i-1):
+            if arr[j]>arr[j+1]:
+                arr[j],arr[j+1]=arr[j+1],arr[j]
+                swapped=True
+        if swapped==False:
+            break
+
+arr=[8,9,1,2,3,10]
+bubble_sort(arr)
+print(arr)
+```
+> Best case Time Complexity is O(n) -- occurs when the array already sorted
+> Worst Case Time complexity is O(n^2)  -- occures when the array is reverse sorted
