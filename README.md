@@ -3,7 +3,7 @@
 ## Sorting Algorithms
 
 | Algorithm| TimeComplexity|
-|:--------|Best|Average|Worst|
+||Best|Average|Worst|
 |:---------|:--------------|
 |Selection sort| O(n^2)|O(n^2)|O(n^2)|
 
