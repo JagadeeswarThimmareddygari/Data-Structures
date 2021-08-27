@@ -33,3 +33,20 @@ print(arr)
 ```
 > Best case Time Complexity is O(n) -- occurs when the array already sorted <br />
 > Worst Case Time complexity is O(n^2)  -- occures when the array is reverse sorted
+
+### Insertion sort
+---
+```python
+def insertion_sort(arr):
+    for i in range(1,len(arr)):
+        key=arr[i]
+        j=i-1
+        while j>=0 and key<arr[j]:
+            arr[j+1]=arr[j]
+            j-=1
+        arr[j+1]=key
+    
+arr=[5,1,4,2,8]
+insertion_sort(arr)
+print(arr)
+```
