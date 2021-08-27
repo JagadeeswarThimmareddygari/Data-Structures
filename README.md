@@ -31,5 +31,5 @@ arr=[8,9,1,2,3,10]
 bubble_sort(arr)
 print(arr)
 ```
-> Best case Time Complexity is O(n) -- occurs when the array already sorted
+> Best case Time Complexity is O(n) -- occurs when the array already sorted <br />
 > Worst Case Time complexity is O(n^2)  -- occures when the array is reverse sorted
