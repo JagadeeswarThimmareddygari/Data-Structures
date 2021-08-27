@@ -1,9 +1,8 @@
 # Data-Structures
 ---
-## Sorting Algorithms
+## Sorting Algorithms - time complexity
 
-| Algorithm| TimeComplexity|
-|----------|Best|Average|Worst|
-|:---------|:--------------|
+| Algorithm| Best|Average|Worst|
+|:---------|:----|:----|:----|
 |Selection sort| O(n^2)|O(n^2)|O(n^2)|
 
