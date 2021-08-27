@@ -1,6 +1,8 @@
 # Data-Structures
+---
+## Sorting Algorithms
 
-##Sorting Algorithms
+| Algorithm| TimeComplexity|
+|:---------|:--------------|
+|Selection sort| O(n^2)|O(n^2)|O(n^2)|
 
-|Algorithm|TimeComplexity|
-|:--------|Best|Average|Worst|
