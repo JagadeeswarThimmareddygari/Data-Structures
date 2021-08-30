@@ -109,7 +109,7 @@ z=''.join(y)
 print(z)
 ```
 ### Remove Consecutive Duplicates
-#### For a given string(str), remove all the consecutive duplicate characters.
+For a given string(str), remove all the consecutive duplicate characters.
 ``` python
 def removeConsecutiveDuplicates(string) :
    ans=string[0]
