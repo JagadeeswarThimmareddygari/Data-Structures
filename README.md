@@ -126,3 +126,21 @@ ans = removeConsecutiveDuplicates(string)
 
 print(ans)
 ```
+### reverse each word in a string
+The task is to implement a function so as to print the sentence such that each word in the sentence is reversed.
+
+```python
+def reverseEachWord(string) :
+    z=string.split(' ')
+    ans=''
+    for x in z:
+       y=list(x)
+       y.reverse()
+       ans+=''.join(y)+' '
+    return ans
+
+
+string="Welcome to github"
+ans=reverseEachWord(string)
+print(ans)
+```
