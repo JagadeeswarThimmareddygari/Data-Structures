@@ -108,3 +108,21 @@ y.reverse()
 z=''.join(y)
 print(z)
 ```
+### Remove Consecutive Duplicates
+#### For a given string(str), remove all the consecutive duplicate characters.
+``` python
+def removeConsecutiveDuplicates(string) :
+   ans=string[0]
+   seen=string[0]
+   for x in string[1:]:
+       if x != seen:
+           ans+=x
+           seen=x
+   return ans
+
+string = 'abcbbadd'
+
+ans = removeConsecutiveDuplicates(string)
+
+print(ans)
+```
