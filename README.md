@@ -50,3 +50,41 @@ arr=[5,1,4,2,8]
 insertion_sort(arr)
 print(arr)
 ```
+### Merge Sort
+
+``` python
+def mergeSort(arr):
+    if len(arr)>1:
+        mid=len(arr)//2
+        L=arr[:mid]
+        R=arr[mid:]
+        
+        mergeSort(L)
+        mergeSort(R)
+        
+        i=k=j=0
+        
+        while i<len(L) and j<len(R):
+            if L[i]<=R[j]:
+                arr[k]=L[i]
+                i+=1
+            else:
+                arr[k]=R[j]
+                j+=1
+            k+=1
+        while i<len(L):
+            arr[k]=L[i]
+            i+=1
+            k+=1
+        
+        while j<len(R):
+            arr[k]=R[j]
+            j+=1
+            k+=1
+
+
+arr=[15,8,9,10,2,5,3]
+
+mergeSort(arr)
+print(arr)
+```
