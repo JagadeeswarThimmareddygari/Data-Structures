@@ -88,3 +88,23 @@ arr=[15,8,9,10,2,5,3]
 mergeSort(arr)
 print(arr)
 ```
+---
+
+### reverse the words in a string
+```python
+x='jagadeeswar 300'
+y=list(x)
+y.reverse()
+z=''.join(y)
+print(z)
+```
+---
+
+### reverse the string
+```python
+x='Hello, World!'
+y=list(x)
+y.reverse()
+z=''.join(y)
+print(z)
+```
