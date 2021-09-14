@@ -144,3 +144,22 @@ string="Welcome to github"
 ans=reverseEachWord(string)
 print(ans)
 ```
+---
+### Binary Search
+> worst case timecomplexity - log(n) and best case time complexity - O(1)
+``` python
+class Solution:
+    def search(self, nums: List[int], target: int) -> int:
+        length=len(nums)
+        l=0
+        r=length-1
+        while l<=r:
+            mid=(l+r)//2
+            if nums[mid]==target:
+                return mid
+            elif target<nums[mid]:
+                r=mid-1
+            else:
+                l=mid+1
+        return -1
+```
